@@ -37,7 +37,7 @@ running without needing to install PHP locally.
 4. Once you have successfully configured your app via the `docker.env` file, run the `./dkbuild.sh` file to build your
    container images and run the application.
 5. Next, run `./dkconnect.sh` to connect to the `app` service container where the *Laravel* application is running.
-6. Run `symfony composer install` to install the application and it's dependencies.
+6. Run `composer install` to install the application and it's dependencies.
 
 ## Where to Next?
 
